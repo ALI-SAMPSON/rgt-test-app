@@ -1,23 +1,13 @@
 <!-- ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 ![Alt text](http://full/path/to/img.jpg "Optional title") -->
 
-| Light Mode - Home V2                                                                                    |  Dark Mode - Home V2                                              |
+| Light Mode - Home V2 (Scroll 1)                                                                                   |  Dark Mode - Home V2 (Scroll 1)                                             |
 | -------------------------------------------------------------------------------------------------------------  |  ----------------------------------------------------------------------|
 | ![screenshot-1705274521292](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/9e691a22-956c-47d1-80d6-adfcec94b09e) | ![screenshot-1705274444346](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/85b667ab-9e65-4920-9016-365bcab9efc4)
 
-| Light Mode - Loading Screen                                                                                    |  Dark Mode - Loading Screen                                            |
+| Light Mode - Home V2 (Scroll 2)                                                                                   |  Dark Mode - Home V2 (Scroll 2)                                           |
 | -------------------------------------------------------------------------------------------------------------  |  ------------------------------------------------------------------------|
 | ![screenshot-1705274555309](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/c0b9940d-6fe0-4ef7-a8c0-7b757d2795a6) |  !![screenshot-1705274489273](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/4da0a520-072d-4ad8-8116-6f177bb04688)
-
-
-| Light Mode - Home/Post Screen                                                                                  |  Dark Mode - Home/Post Screen                                            |
-| -------------------------------------------------------------------------------------------------------------  |  ------------------------------------------------------------------------|
-| ![IMG_0103](https://github.com/ALI-SAMPSON/quavinci-test/assets/17532408/cf80d8b5-aa95-4c69-b614-128baaca3064) |  ![IMG_0099](https://github.com/ALI-SAMPSON/quavinci-test/assets/17532408/0758a2fc-8f48-4ea4-b2dd-38800fea6dde)
-
-
-| Light Mode - Post Detail Screen                                                                                |  Dark Mode - Post Detail                                                 |
-| -------------------------------------------------------------------------------------------------------------  |  ------------------------------------------------------------------------|
-| ![IMG_0101](https://github.com/ALI-SAMPSON/quavinci-test/assets/17532408/e6b8abc3-9992-43a6-9d9c-5f208c99f855) |  ![IMG_0100](https://github.com/ALI-SAMPSON/quavinci-test/assets/17532408/009e147d-f28f-4d92-b7b7-2a41c19b8730)
 
 
 
