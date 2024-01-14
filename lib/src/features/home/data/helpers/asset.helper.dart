@@ -25,7 +25,7 @@ abstract class JsonService {
 class JsonServiceImpl extends JsonService {
   @override
   Future loadJsonAsset(String jsonPath) async {
-    return await Future.delayed(const Duration(milliseconds: TAppSize.d3000),
+    return await Future.delayed(const Duration(milliseconds: TAppSize.d5000),
         () async {
       final strRes = await rootBundle.loadString(jsonPath);
       debugPrint('Response: ${jsonDecode(strRes)}');

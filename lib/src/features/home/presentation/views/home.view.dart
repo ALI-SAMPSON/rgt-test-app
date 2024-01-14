@@ -1,4 +1,3 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_test_app/gen/assets.gen.dart';
@@ -7,7 +6,6 @@ import 'package:flutter_test_app/src/common.widgets/animated.listview.dart';
 import 'package:flutter_test_app/src/constants/app.colors.dart';
 import 'package:flutter_test_app/src/constants/app.enums.dart';
 import 'package:flutter_test_app/src/constants/app.sizes.dart';
-import 'package:flutter_test_app/src/features/home/domain/appointment.model.dart';
 import 'package:flutter_test_app/src/features/home/domain/medical.test.model.dart';
 import 'package:flutter_test_app/src/features/home/domain/medication.model.dart';
 import 'package:flutter_test_app/src/features/home/presentation/view.models/home.vm.dart';

@@ -1,9 +1,9 @@
 <!-- ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 ![Alt text](http://full/path/to/img.jpg "Optional title") -->
 
-| Light Mode - Splash Screen                                                                                     |  Dark Mode - Splash Screen                                             |
+| Light Mode - Home V2                                                                                    |  Dark Mode - Home V2                                              |
 | -------------------------------------------------------------------------------------------------------------  |  ----------------------------------------------------------------------|
-| ![IMG_0102](https://github.com/ALI-SAMPSON/quavinci-test/assets/17532408/bc9249d8-29c5-4b96-8f56-1cf9579aa00a) |  ![IMG_0098](https://github.com/ALI-SAMPSON/quavinci-test/assets/17532408/989bb684-1ae0-4104-8eb1-94592eea8a8a)
+| ![screenshot-1705274444346](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/85b667ab-9e65-4920-9016-365bcab9efc4) | ![screenshot-1705274489273](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/4da0a520-072d-4ad8-8116-6f177bb04688)
 
 | Light Mode - Loading Screen                                                                                    |  Dark Mode - Loading Screen                                            |
 | -------------------------------------------------------------------------------------------------------------  |  ------------------------------------------------------------------------|

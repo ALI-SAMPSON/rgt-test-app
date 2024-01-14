@@ -59,18 +59,18 @@ class TLoadingWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 CircleAvatar(
-                  backgroundColor: Colors.grey[300],
+                  backgroundColor: Colors.grey[500],
                   child: const Text(''),
                 ),
                 TAppSize.s16.horizontalSpace,
                 CircleAvatar(
-                  backgroundColor: Colors.grey[300],
+                  backgroundColor: Colors.grey[500],
                   child: const Text(''),
                 ),
                 TAppSize.s16.horizontalSpace,
                 CircleAvatar(
                   //  radius: TAppSize.s10,
-                  backgroundColor: Colors.grey[300],
+                  backgroundColor: Colors.grey[500],
                   child: const Text(''),
                 ),
               ],

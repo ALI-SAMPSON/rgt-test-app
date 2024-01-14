@@ -1,7 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test_app/src/features/home/data/data.sources/appointment.ds.dart';
 import 'package:flutter_test_app/src/features/home/data/errors/failure.dart';
-import 'package:flutter_test_app/src/features/home/data/wrappers/catch_error_wrapper.dart';
 import 'package:flutter_test_app/src/features/home/data/wrappers/custom_repository_wrapper.dart';
 import 'package:flutter_test_app/src/features/home/domain/appointment.model.dart';
 import 'package:injectable/injectable.dart';
