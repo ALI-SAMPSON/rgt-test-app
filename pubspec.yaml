@@ -1,0 +1,86 @@
+name: flutter_test_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # UI Related Dependencies
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  ## --- Animation Dependencies ------ ##
+  redacted: ^1.0.11
+  flutter_staggered_animations: ^1.1.1
+  ## --- Statemanagement Dependencies ------ ##
+  provider: ^6.1.1
+  ## --- Localization Dependencies --- ##
+  intl: ^0.18.1
+  flutter_localizations:
+    sdk: flutter
+  logger: ^2.0.2+1
+  fl_chart: ^0.66.0
+  badges: ^3.1.2
+  carousel_slider: ^4.2.1
+  ## --- API dependencise
+  internet_connection_checker: ^1.0.0+1
+  dio: ^5.3.3
+  dartz: ^0.10.1
+  injectable: ^2.3.2
+  get_it: ^7.6.6
+  envied: ^0.5.3
+
+flutter_gen:
+  output: lib/gen/ 
+  integrations:
+    flutter_svg: true
+    lottie: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  injectable_generator: ^2.4.1  #  <--- dependecy injection generator 
+  build_runner: ^2.4.6 #  <--- build generated files
+  flutter_gen_runner:
+  envied_generator: ^0.5.3 # obfuscate credentials
+ 
+flutter:
+  generate: true # generate localized strings 
+
+  uses-material-design: true
+
+  #------------------------ LOCAL ASSETS -------------------------------# 
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+    - assets/json/
+#------------------------ LOCAL ASSETS END HERE -------------------# 
+
+#------------------------ LOCAL FONTS --------------------------------# 
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter-Black.ttf
+          weight: 900
+#------------------------ LOCAL FONTS END HERE -------------------------# 

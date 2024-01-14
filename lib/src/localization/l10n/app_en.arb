@@ -1,0 +1,21 @@
+{
+  "appName": "RGT Test App",
+  "noRouteFound": "No route found!",
+  "futureVisits": "Future Visits",
+  "futureVaccinations": "Future Vaccinations",
+  "futureLabTests": "Future Lab Tests",
+  "surgeries": "Surgeries",
+  "activeMedications": "Active medications",
+  "trackingMeasures": "Tracking Measures",
+  "lastTestResults": "Last Test Results",
+  "seeAll": "See All",
+  "entresto": "Entresto",
+  "spironolactone": "Spironolactone",
+  "upcoming": "Upcoming",
+  "fiveActivies": "5 Activities",
+  "visits": "Visits",
+  "medications": "Medications",
+  "vaccinations": "Vaccinations",
+  "hello": "Hello",
+  "futureScans": "Future Imaging"
+}

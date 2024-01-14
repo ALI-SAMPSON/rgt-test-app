@@ -1,0 +1,50 @@
+{
+    "status" : true,
+    "data": [
+        {
+            "name": "Future Visits",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. David Q. Cochran",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-01-24T17:41:22.586464" 
+            }
+        },
+        {
+            "name": "Future Vaccinations",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. Lord Quashie",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-02-04T17:41:22.586464" 
+            }
+        },
+        {
+            "name": "Future Lab Test",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. Linda Kingston",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-03-14T17:41:02.306464" 
+            }
+        },
+        {
+            "name": "Future Imaging",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. David Q. Cochran",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-02-09T11:41:22.586464" 
+            }
+        },
+        {
+            "name": "Surgeries",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. David Q. Cochran",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-04-02T10:41:22.586464" 
+            }
+        }
+    ]
+}

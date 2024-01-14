@@ -1,0 +1,23 @@
+{
+    "status" : true,
+    "data": [
+        {
+            "name": "Future Visits",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. David Q. Cochran",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-01-24T17:41:22.586464" 
+            }
+        },
+        {
+            "name": "Future Vaccinations",
+            "occurrence": 1,
+            "appointment": {
+                "healthProfessional": "Dr. Lord Quashie",
+                "visiteType": "Follow Up",
+                "visitedAt": "2024-02-04T17:41:22.586464" 
+            }
+        }
+    ]
+}
