@@ -3,11 +3,11 @@
 
 | Light Mode - Home V2                                                                                    |  Dark Mode - Home V2                                              |
 | -------------------------------------------------------------------------------------------------------------  |  ----------------------------------------------------------------------|
-| ![screenshot-1705274444346](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/85b667ab-9e65-4920-9016-365bcab9efc4) | ![screenshot-1705274521292](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/9e691a22-956c-47d1-80d6-adfcec94b09e)
+| ![screenshot-1705274521292](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/9e691a22-956c-47d1-80d6-adfcec94b09e) | ![screenshot-1705274444346](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/85b667ab-9e65-4920-9016-365bcab9efc4)
 
-
+| Light Mode - Loading Screen                                                                                    |  Dark Mode - Loading Screen                                            |
 | -------------------------------------------------------------------------------------------------------------  |  ------------------------------------------------------------------------|
-| ![screenshot-1705274555309](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/7cdf28a0-2fa6-42dd-b758-38f9133c2161) |  !![screenshot-1705274489273](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/4da0a520-072d-4ad8-8116-6f177bb04688)
+| ![screenshot-1705274555309](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/c0b9940d-6fe0-4ef7-a8c0-7b757d2795a6) |  !![screenshot-1705274489273](https://github.com/ALI-SAMPSON/rgt-test-app/assets/17532408/4da0a520-072d-4ad8-8116-6f177bb04688)
 
 
 | Light Mode - Home/Post Screen                                                                                  |  Dark Mode - Home/Post Screen                                            |
