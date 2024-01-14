@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_test_app/app.dart';
+import 'package:flutter_test_app/src/app/app.dart';
 import 'package:flutter_test_app/gen/locator.gen.dart';
 import 'package:injectable/injectable.dart';
 

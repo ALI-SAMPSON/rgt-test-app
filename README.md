@@ -32,7 +32,7 @@ The Boilerplate contains the minimal implementation required to complete the eva
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/ALI-SAMPSON/quavinci-test.git
+https://github.com/ALI-SAMPSON/rgt-test-app
 ```
 
 **Step 2:**
@@ -78,8 +78,7 @@ In Visual Studio Code, navigate to `Preferences` -> `Settings` and search for `F
 
 ## Boilerplate Features:
 
-* Splash
-* Dashboard
+* Home
 * Routing
 * Theme
 * Provider (State Management)
@@ -96,7 +95,6 @@ In Visual Studio Code, navigate to `Preferences` -> `Settings` and search for `F
 * [Build Runner](https://github.com/dart-lang/build/blob/master/build_runner)
 * [Dependency Injection](https://github.com/fluttercommunity/get_it)
 * [Flutter ScreenUtil](https://github.com/OpenFlutter/flutter_screenutil)
-* [PersistentBottomNavBar](https://github.com/BilalShahid13/PersistentBottomNavBar)
 * [Flutter Localizations](https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html)
 
 
@@ -104,7 +102,7 @@ In Visual Studio Code, navigate to `Preferences` -> `Settings` and search for `F
 Here is the core folder structure which flutter provides.
 
 ```
-flutter-app/
+flutter_test_app/
 |- android
 |- build
 |- ios
@@ -116,86 +114,76 @@ Here is the folder structure we have been using in this project
 
 ```
 lib/
-|- app/
-|- commons/
-|- core/
-|- data/
-|- features/
-|- i10n/
+|- gen/
+|- src/
+|- app.dart
 |- main.dart
-|- routes.dart
 ```
 
 Now, lets dive into the lib folder which has the main code for the application.
 
 ```
 1- app - consist of parent widget of the entire application after which every other code executes
-2- commons - the common widgets for your applications. For example, Button, TextField, AnimatedColumnWidget, AnimatedColumnWidget etc.
-3- core - All the application level constants are defined in this directory with-in their respective files. This directory contains the utils/ functions of your application constants for `theme`, `dimentions`, `injections`, `network`, `utils` and `strings`.
+2- commons.widgets - the common widgets for your applications. For example, Button, TextField, AnimatedColumnWidget, AnimatedColumnWidget etc.
+3- utils - All the application level constants are defined in this directory with-in their respective files. This directory contains the utils/ functions of your application constants for `theme`, `helpers`, `logger`, and `formatters`.
 4- features -  all the ui of your project, contains sub directory for each screen
-5- i10n -  contains all files for localization of strings or texts used in the application
-6- routes.dart — This file contains all the routes for the application.
-7- main.dart - This is the starting point of the application. All the application level configurations are defined in this file i.e, theme, routes, title, orientation etc.
+5- localization -  contains all files for localization of strings or texts used in the application
+6- env/env.dart — This file contains all the API endpoints and secured keys used in app.
+7- routes/routes.dart — This file contains all the routes for the application.
+8- main.dart - This is the starting point of the application. All the application level configurations are defined in this file i.e, theme, routes, title, orientation etc.
 ```
 
-### Core
+### Gen
 
 This directory contains all the application level constants. A separate file is created for each type as shown in example below:
 
 ```
-core/
-|- injections/
-   |- locator.dart
-|- network/
-|- utils/
-   |- constants
-   |- device
-   |- formatters
-   |- helpers
-   |- theme
+gen/
+|- assets.gen.dart
+|- assets.gen.dart
+|- locator.gen.dart
 ```
 
-### Data
+### Features
 
-All the business logic of your application will go into this directory, it represents the data layer of your application. It is sub-divided into three directories `local`, `network` and `sharedperf`, each containing the domain specific logic. Since each layer exists independently, that makes it easier to unit test. The communication between UI and data layer is handled by using central repository.
+
+All functional requirements are have seperate folders consisting of `application`,
+`data`, `domain`, and `presentation`. 
+`Application` layer contains all services providing a gateway for data entry into the UI.
+`Data` layer represents the data layer of your application. It is sub-divided into three directories `data.sources`, `repositories` and `services`, each containing the domain specific logic. Since each layer exists independently, that makes it easier to unit test. The communication between UI and data layer is handled by using central service.
+`Domain` layer consist of all the business logic of the application. This is where all model related to a specific feature is created to retrieve and provide data to the UI.
+`Presentation` layer consist of all User related widgets which are put together to form the UI. It consist of the `view.models`, `views`, `widgets`
 
 ```
 features/
-|- splash/
-    |- pages/
-    |- models/
-    |- view.models/
-    |- widgets/
-|- dashboard/
-    |- pages/
-    |- models/
-    |- tabs/
-    |- view.models/
-    |- widgets/
+|- home/
+    |- application/
+    |- data/
+    |- domain/
+    |- presentation/
 ```
 
-### Commons
+### Commons.Widgets
 
 The Commons is where all the common application reusable components lives.
 Ti consist of custom listview, column & animation widgets to help ease the stress of writing so much boilerplate code. Here is a view of folder structure:
 
 ```
-commons/
-|- shared.widgets/
-    |- animated.column.dart
-    |- animated.listview.dart
-    |- empty.state.item.dart
-    |- slide.left.right.dart
+commons.widgets/
+|- animated.column.dart
+|- animated.listview.dart
+|- slide.left.right.dart
 ```
 
-### i10n
+### Localization
 
 This directory contains all files used for localization and internationalization of the application. There are two main `arb` files, `app_en.arb` & `app_es.arb` for English and Spanish Languages respectively. You can create more files with the country code of your choice if need be 
 
 ```
-i10n/
-|- app_en.arb
-|- app_es.arb
+localization/
+    |- i10n/
+        |- app_en.arb
+        |- app_es.arb
 ```
 
 ### Routes
@@ -216,4 +204,4 @@ To contribute to this project, kindly send a `hi 😊` on twitter or leave me a 
 
 Your Name - [@ali-sampson](https://github.com/ALI-SAMPSON) - alisampson2@gmail.com
 
-Project Link: [https://github.com/ALI-SAMPSON/quavinci-test](https://github.com/ALI-SAMPSON/quavinci-test)
+Project Link: [https://github.com/ALI-SAMPSON/rgt-test-app](https://github.com/ALI-SAMPSON/rgt-test-app)
