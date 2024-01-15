@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-The Boilerplate contains the minimal implementation required to complete the evaluation from Quavinci Team.
+The Boilerplate contains the minimal implementation required to complete the evaluation from `Really Great Tech` Team.
 
 ## Requirements
 1. Flutter version 3.16.7
